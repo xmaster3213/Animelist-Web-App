@@ -1,0 +1,14 @@
+body {
+    background-color: #f4f5f7;
+}
+
+.container {
+    margin: 100px auto;
+    display: grid;
+    align-content: space-around;
+    grid-gap: 10px;
+}
+
+.form-control {
+    background-color: white !important;
+}

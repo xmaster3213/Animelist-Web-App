@@ -1,0 +1,89 @@
+body{
+    background-color: #f4f5f7;
+    font-family: Overpass,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.list {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-header {
+    font-weight: 400;
+    padding-left: 30px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.list-anime{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 20px rgb(49 54 68 / 9%);
+    font-size: 1em;
+}
+
+.anime, .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.anime:hover{
+    background-color: orange;
+}
+
+.cover{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 60px;
+    min-width: 60px;
+}
+
+.image{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    height: 40px;
+    width: 40px;
+}
+
+.title{
+    flex: 5;
+    text-align: center;
+    padding: 18px 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.score{
+    flex: 1;
+    text-align: center;
+    padding: 18px 20px;
+    box-sizing: border-box;
+}
+
+.episodes{
+    flex: 1;
+    text-align: center;
+    padding: 18px 20px;
+    box-sizing: border-box;
+}
+
+.edit{
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 50px;
+    min-width: 50px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}

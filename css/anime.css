@@ -1,0 +1,229 @@
+body {
+    background-color: #f4f5f7;
+}
+
+.container {
+    font-family: Overpass,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    background-color: white;
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: 215px auto;
+    min-width: 320px;
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 250px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cover-wrapper {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+}
+
+.cover {
+    background-color: rgba(212,230,245,.5);
+    border-radius: 2px;
+    box-shadow: 0 0 29px rgb(49 54 68 / 25%);
+    margin-top: 15px;
+    width: 100%;
+    vertical-align: text-top;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.action {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    grid-gap: 1px;
+    box-sizing: border-box;
+}
+
+.action-grid {
+    display: grid;
+    grid-template-columns: auto 60px;
+}
+
+a:link, a:visited {
+    border-radius: 3px;
+    /* padding: 15px 25px; */
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+  }
+
+.white {
+    color: white;
+    font-size: 1.4rem;
+    height: 35px;
+}
+
+.black {
+    color: black;
+}
+
+.content {
+    padding-top: 25px;
+    box-sizing: border-box;
+    grid-template-rows: min-content min-content auto;
+    display: inline-grid;
+}
+
+h1{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(92,114,138);
+}
+
+.description {
+    color: rgb(122,133,143);
+    line-height: 1.5;
+    margin: 0;
+    max-width: 900px;
+    padding: 15px 0;
+    transition: .2s;
+}
+
+.categories {
+    min-width: 320px;
+    max-width: 1140px;
+    min-height: 250px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.content-container {
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: 208px auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+.data {
+    border-radius: 3px;
+    padding: 18px;
+    background-color: white;
+}
+
+.data-set {
+    padding-bottom: 14px;
+    box-sizing: border-box;
+}
+
+.type {
+    font-weight: 500;
+    color: rgb(92, 114, 138);
+    font-size: 0.9rem
+}
+
+.value {
+    color: rgb(146,153,161);
+    font-size: 0.8rem
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgb(92,114,138);
+}
+
+.video {
+    border-radius: 4px;
+    height: 240px;
+    overflow: hidden;
+    width: 426px;
+}
+
+.grid-wrap {
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+    box-sizing: border-box;
+}
+
+.character-card {
+    border-radius: 3px;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    height: 80px;
+    overflow: hidden;
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+}
+
+.character {
+    display: inline-grid;
+    grid-template-columns: 60px auto;
+    grid-template-areas: "image content";
+}
+
+.character-image {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: image;
+    text-decoration: none;
+    transition: .15s;
+    outline: 0;
+}
+
+a {
+    color: rgb(122,133,143);
+    text-decoration: none;
+    transition: .15s;
+    outline: 0;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+.staff {
+    grid-template-areas: "content image";
+    grid-template-columns: auto 60px;
+    display: inline-grid;
+    box-sizing: border-box;
+}
+
+.watch {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto-fill,100px);
+    box-sizing: border-box;
+}
+
+.episode {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    display: inline-block;
+    flex: 1;
+    height: 100px;
+    max-width: 100%;
+    vertical-align: text-bottom;
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    background: rgba(31,38,49,.7);
+    bottom: 0;
+    color: rgba(237,241,245,.91);
+    font-size: 0.9rem;
+    left: 0;
+    overflow: hidden;
+    padding: 11px;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}

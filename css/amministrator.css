@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f5f7;
+}
+
+.container {
+    margin: 100px auto;
+}
+
+.content {
+    display: grid;
+    margin: auto;
+    grid-gap: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: auto;
+}
+
+h1, h2 {
+    margin: 10px auto 0px;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+}
+
+.form-control {
+    background-color: white !important;
+}
+
+.form-outline {
+    margin-right:10px;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2,1fr);
+}
+
